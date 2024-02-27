@@ -1,0 +1,209 @@
+@media screen and (max-width: 1450px){
+   #logo img{
+      width: 120px;
+   }
+   #meni ul li{
+      margin-right: 8px;
+   }
+   #meni ul li a{
+      font-size: 23px;
+   }
+   h3{
+      font-size: 50px;
+   }
+   #about-me{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   #authorPhoto{
+      width: 90%;
+      text-align: center;
+      margin-left: 0;
+   }
+   #authorText p{
+      font-size: 25px;
+   }
+   h4{
+      font-size: 33px;
+   }
+   #service-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .service{
+      width: 60%;
+   }
+   .service p{
+      font-size: 25px;
+   }
+   p{
+      font-size: 33px;
+   }
+   #project-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .project{
+      width: 80%;
+   }
+   #contact-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .contact p{
+      font-size: 23px;
+   }
+}
+@media screen and (max-width: 768px){
+   #logo{
+      padding-left: 0;
+   }
+   #meni ul li a{
+      font-size: 17px;
+      margin-right: 5px;
+   }
+   h1{
+      font-size: 40px;
+   }
+   h3{
+      font-size: 40px;
+   }
+   #about-me{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   #authorPhoto{
+      width: 90%;
+      text-align: center;
+      margin-left: 0;
+   }
+   #authorText p{
+      font-size: 20px;
+   }
+   #service-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .service p{
+      font-size: 15px;
+   }
+   #project-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .project{
+      width: 80%;
+   }
+   #contact-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .contact p{
+      font-size: 16px;
+   }
+}
+@media screen and (max-width: 480px) {
+   header{
+      flex-direction: column;
+   }
+   #logo{
+      padding-left: 0px;
+   }
+   #meni ul{
+      margin-left: 0px;
+   }
+   #meni ul li{
+      margin-right: 5px;
+   }
+   #meni ul li a{
+      font-size: 10px;
+   }
+   #background{
+      height: 500px;
+      justify-content: center;
+   }
+   h3{
+      font-size: 30px;
+   }
+   h1{
+      font-size: 30px;
+   }
+   #about-me{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   #authorPhoto{
+      width: 80%;
+      text-align: center;
+      margin-left: 0;
+   }
+   #authorText p{
+      font-size: 13px;
+      margin-right: 0;
+   }
+   #service-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .service{
+      width: 50%;
+   }
+   .service p{
+      font-size: 10px;
+   }
+   h4{
+      font-size: 20px;
+   }
+   #projects p{
+      font-size: 14px;
+   }
+   #project-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .project{
+      width: 70%;
+   }
+   #skills p{
+      font-size: 14px;
+   }
+   #contact-blocks{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .contact{
+      width: 80%;
+   }
+   .contact i{
+      font-size: 20px;
+   }
+   .contact p{
+      font-size: 13px;
+   }
+   .form{
+      width: 60%;
+   }
+   label{
+      font-size: 15px;
+   }
+   #forma #btnMessage{
+      font-size: 15px;
+      width: 50%;
+   }
+   footer p{
+      font-size: 13px;
+   }
+}
+   
