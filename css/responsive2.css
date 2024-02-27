@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px) {
+
+#meni ul {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 50%;
+        background-color: #333;
+        z-index: 999;
+    }
+
+#meni ul.active {
+        display: block;
+    }
+
+#meni ul li {
+        width: 100%;
+        border-bottom: 1px solid #525252;
+    }
+
+ #meni ul li a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+#logo {
+        text-align: center;
+    }
+
+#meni {
+        text-align: center;
+    }
+
+ #meni ul {
+        position: static;
+        display: none;
+        text-align: center;
+    }
+
+#meni ul li {
+        display: block;
+        border-bottom: none;
+    }
+
+    #meni ul.active {
+        display: block;
+    }
+	
+	h1 {
+		font-size: 24px;
+	}
+	
+	p {
+		font-size: 16px;
+		
+	}
+}
+

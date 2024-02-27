@@ -1,0 +1,312 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+	width: 100%;
+    padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo{
+    padding-left: 90px;
+}
+#logo img{
+    width: 80px;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #1f522a;
+}
+#meni{
+	width: 45%;
+}
+#meni ul{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#meni ul .active a, #meni ul li a:hover{
+	color: #b6eed1;
+}
+#background{
+	width: 100%;
+	height: 750px;
+	background-image: url("../img/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+#title{
+    width: 50%;
+	height: 200px;
+	text-align: center;
+    animation-name: naslovAnimation;
+	animation-duration: 2s;
+}
+@keyframes naslovAnimation {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 4px;
+}
+h2{
+    color: #000000;
+    font-style: italic;
+}
+#title hr{
+    margin: 30px auto;
+    border: 2px solid #1f522a;
+    border-radius: 2px;
+    background-color: #1f522a;
+    width: 200px;
+}
+#title a i{
+    width: 30px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color:#1f522a;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+#about{
+    width: 100%;
+}
+h3{
+    color: #1f522a;
+    margin: 50px auto;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#about-me{
+    display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	width: 100%;
+}
+#authorPhoto{
+    width: 35%;
+    margin-left: 50px;
+}
+#authorPhoto img{
+    width: 50%;
+}
+img{
+    border-radius: 6px;
+}
+#authorText{
+    width: 60%;
+}
+#authorText p{
+    text-align: center;
+	font-size: 25px;
+    color:#1f522a;
+	margin-top: 50px;
+    margin-right: 50px;
+}
+h4{
+    font-size: 28px;
+    text-align: center;
+    color: #1f522a;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+#services{
+    width: 100%;
+    background-color: rgba(186, 217, 190, 0.2);
+    margin-top: 50px;
+}
+#service-blocks{
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+    width: 25%;
+}
+.service i{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #1f522a;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.service p{
+    color: #1f522a;
+    text-align: center;
+    font-size: 18px;
+}
+#projects{
+    width: 100%;
+    margin-top: 50px;
+}
+#project-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project{
+    width: 30%;
+    transition-duration: 0.3s;
+}
+.project img{
+    width: 100%;
+}
+.project:hover{
+	transition: ease-out;
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color:#1f522a;
+    margin-bottom: 50px;
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: 0px auto;
+}
+#skills .blocks {
+    margin: 10px 0px;
+    background: linear-gradient(90deg, rgb(31, 82, 42) 6%, rgb(182, 238, 209) 100%);
+    height: 50px;
+    border: 2px;
+    border-radius: 5px;
+}
+#skills .blocks p {
+    padding: 15px;
+    text-align: left;
+    color:#b6eed1;
+}
+#skills #first{
+    width: 90%;
+}
+#skills #second{
+    width: 75%;
+}
+#skills #third{
+    width: 75%;
+}
+#skills #fourth{
+    width: 60%;
+}
+#skills #fifth{
+    width: 80%;
+}
+#contact{
+    width: 100%;
+    background-color: rgba(186, 217, 190, 0.2);
+    margin-top: 50px;
+}
+#contact-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact{
+    width: 33%;
+}
+.contact i{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #1f522a;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.contact p{
+    text-align: center;
+    font-size: 20px;
+    color: #1f522a;
+}
+#forma{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    margin-top: 20px;
+}
+#forma form{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    margin-top: 30px;
+}
+.form{
+	width: 70%;
+	margin-bottom: 10px;
+}
+#forma input, #forma textarea{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #1f522a;
+}
+label{
+	font-size: 21px;
+    color:#1f522a;
+}
+#forma #btnMessage{
+	width: 30%;
+	background-color: #1f522a;
+	padding: 10px;
+	color: #b6eed1;
+	font-size: 20px;
+}
+#forma #btnMessage:hover{
+	background-color: #3e9e52;
+	font-weight: 800;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color:#1f522a;
+}
+footer p{
+    font-size: 17px;
+    color: #b6eed1;
+    text-align: center;
+}
+
+img {
+
+max-width: 100%;
+
+height: auto;
+
+}
