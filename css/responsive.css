@@ -109,6 +109,9 @@
    .contact p{
       font-size: 16px;
    }
+   #forma #btnMessage{
+      width: 50%;
+   }
 }
 @media screen and (max-width: 480px) {
    header{
@@ -202,8 +205,8 @@
       font-size: 15px;
    }
    #forma #btnMessage{
-      font-size: 15px;
-      width: 50%;
+      font-size: 13px;
+      width: 55%;
    }
    footer p{
       font-size: 13px;
